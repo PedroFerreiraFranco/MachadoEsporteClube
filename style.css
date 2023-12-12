@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+main{
+    margin: 2em;
+}
+
+/* navbar */
+navbar div {
+    background-color: blue;
+}
+
+navbar div a img {
+    width: 50px;
+}
+
+navbar div ul li {
+    margin: 5% 2%;
+}
+
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+/* pseudo elemento first leder */
+
+/* navbar */
+
+/* footer */
+footer {
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+footer div {
+    color: #fff;
+}
+
+footer ul {
+    margin-right: 10%;
+}
+
+footer span {
+    margin-left: 10%;
+}
+
+.carousel-inner {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* footer */
+
+/* menu */
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2em 2em;
+    text-align: center;
+    color: blue;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #404040;
+    font-size: 1em;
+    text-align: justify;
+    margin: 2em 2em;
+    text-justify: distribute;
+}
+
+#carouselExampleIndicators {
+    max-width: 80%;
+    max-height: 40%;
+    margin: auto;
+    overflow: hidden;
+}
+/* menu */
+
+/* contato */
+
+/* contato */
+.body-contato {
+    background-image: url('Img/background4.jpg');
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+}
+
+.contatoBlock {
+    position: relative;
+    z-index: 1;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 80%;
+    height: 60em;
+}
+
+/* patrocinadores */
+
+.container-patrocinadores {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.card img {
+    justify-content: center;
+    height: 50%;
+}
+
+/* patrocinadores */
+/* for Demo Only */
+.demo-row {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+/* Implement */
+.sponsor-feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+#id-sponsors .carousel {
+    margin-bottom: 20px;
+}
+
+#id-sponsors .item {
+    padding-bottom: 20px;
+}
+
+#id-sponsors .carousel-indicators {
+    bottom: -25px;
+}
+/* patrocinadores */
+
+/* localização */
+
+.map-container {
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* localização */
+
+/* jogadores */
+.container-jogadores {
+    align-items: center;
+}
+
+/* jogadores */
